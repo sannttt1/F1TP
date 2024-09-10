@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Sankofa+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Space+Grotesk:wght@300..700&family=Yusei+Magic&display=swap');
+
+
+
+
+
+
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Space Grotesk", sans-serif !important;
+    font-weight: 700;
+    font-style: normal;
+}
+body{
+    background-color: rgba(235, 9, 9, 0.966);
+}
+div, p, h1, h2, h3, h4, h5, h6,ul{
+    margin-left: 10px;
+}
+html, body, main{
+    margin: 0;
+    padding: 0;
+    font-family: "Space Grotesk", sans-serif !important;
+}
+.header{
+    background-color:rgb(255, 255, 255);
+}
+
+.listado li:hover{
+    transform: scale(1.2);
+}
+.listado{
+    display: flex;
+}
+
+.listado li{
+    padding-top:25px ;
+    padding-right: 170px;
+    height: 130px;
+    font-size: 70px;
+    list-style: none;
+    transition: transform 0.5s;
+    
+}
+
+.listado li > a { 
+    font-family:"Yusei Magic", sans-serif !important;
+    font-optical-sizing: auto !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    color: black;
+    
+}
+
+.F1{
+    height: 120px;
+    width: 150px;
+    border-radius: 35%;
+    margin-left: 30px;
+}
+a{
+text-decoration: none;
+font-family: "Space Grotesk", sans-serif;
+
+}
+img{
+    height: 570px;
+    width: 890px;
+    border-radius: 7%;
+    margin-left: 10px;
+}
+.productosImags{
+    height: 400px;
+    width: 400px;
+}
+.maincontact{
+    background-image: url('17276.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bn4{
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+    padding-left: 500px;
+    transition: transform 0.3s;
+    
+}
+
+.cajaDetarjetas{
+    display: flex; /* Acomoda las tarjetas de forma horizontal */
+    gap: 15px; /* El espacio entre las tarjetas es de 15 pixeles*/
+    flex-wrap: wrap; /* Si las tarjetas no entran en la caja, los manda para abajo*/
+    padding: 20px; /* Espacio entre los elementos y la caja*/
+    justify-content: center; /* Centrar de manera horizontal los elementos de la caja*/
+
+
+}
+
+.tarjeta {
+    background-color: rgb(255, 255, 255); /* Color de fondo de la tarjeta */
+    width: 450px; /* Ancho de la tarjeta */
+    height: 600px; /* Largo de la tarjeta */
+}
+
+.textofondo{
+    background-color:rgba(211, 204, 204, 0.993); 
+}
+.tarjeta > img{
+    width: 400px;
+    height: 350px;
+}
